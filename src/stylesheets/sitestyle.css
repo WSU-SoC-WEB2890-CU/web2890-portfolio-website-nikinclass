@@ -1,0 +1,187 @@
+
+/*Gradient color and font*/
+body {
+    background: white;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    font-style: bold;
+    text-align: right;
+}
+
+body header img {
+    float: left;
+    width: 15%;
+    height: 15%;
+}
+body header h1 {
+    font-size: 35;
+    font-weight: lighter;
+}
+  /* Navbar links */
+nav {
+    overflow: hidden;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+  
+  /* Links - change color on hover */
+nav a:hover {
+    background-color: #D03309;
+    color: #62C8DF;
+}
+nav a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    background-color: #FFFF00;
+    color: #62C8DF;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+.home {
+    border: #E8DACD;
+    background-color: #E8DACD;
+    word-break: normal;
+
+}
+.home h2 {
+    font-size: 35;
+    font-weight: bold;
+
+}
+
+.home h3 {
+    font-size: 18;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 18;
+}
+
+aside img{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.aboutme-testimonial p {
+    float: left;
+    word-wrap: break-word;
+}
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+
+.hero {
+    height: 100vh;
+    background-image: url('..\images/NG_dark.PNG'); 
+    background-size: 100%;
+    background-position: wide;
+    position: relative;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#E8DACD ;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+.hero-content a button {
+    float: center;
+    color: bold black;
+    border: 5px solid darkgreen;
+    background-color: #76D4E5 ;
+
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 0 0;
+} */
+
+column-1 {
+    float: left;
+    width: 30%;
+    /* background-color: #E8DACD ; */
+    padding: 10px;
+}
+  
+column-2 {
+    float: left;
+    width: 30%;
+    /* background-color: #E8DACD; */
+    padding: 10px;
+}
+  
+  /* Middle column */
+column-3 {
+    float: left;
+    width: 30%;
+    background-color: #E8DACD;
+    padding: 10px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+footer {
+    position:inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFCC;
+    color:black;
+    text-align: center;
+
+}
+footer h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    column.side, .column.middle {
+    width: 100%;
+    }
+}
