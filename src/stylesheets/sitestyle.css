@@ -3,6 +3,8 @@
 body {
     background: white;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 header {
     font-style: bold;
@@ -54,7 +56,7 @@ nav ul li {
 
 .home {
     border: #E8DACD;
-    background-color: #E8DACD;
+    background-color: white;
     word-break: normal;
 
 }
@@ -143,8 +145,18 @@ column-1 {
     width: 30%;
     /* background-color: #E8DACD ; */
     padding: 10px;
+
 }
-  
+column-1 .home {
+    float: left;
+    width: 30%;
+    font-size: x-large;
+
+}
+column-1 img {
+    height: 50px;
+    width: 50px;
+}
 column-2 {
     float: left;
     width: 30%;
@@ -156,10 +168,15 @@ column-2 {
 column-3 {
     float: left;
     width: 30%;
-    background-color: #E8DACD;
+    /* background-color: #E8DACD; */
     padding: 10px;
 }
-img {
+column-3 img {
+    width: 50px;
+    height: 50px;
+}
+
+.RecentProjects img {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -178,6 +195,43 @@ footer h1 {
     font-size: medium;
     font-weight: bold;
 }
+footer {
+    img {
+        height: 50px;
+        width: 50px;
+    }
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color */
+  input[type=submit] {
+    background-color: #62C8DF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FFFF00;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
