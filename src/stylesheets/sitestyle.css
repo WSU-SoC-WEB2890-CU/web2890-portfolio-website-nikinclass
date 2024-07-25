@@ -55,11 +55,17 @@ nav ul li {
 }
 
 .home {
+    float: left;
     border: #E8DACD;
-    background-color: white;
+    /* background-color:; */
     word-break: normal;
-
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
 }
+
 .home h2 {
     font-size: 35;
     font-weight: bold;
@@ -87,7 +93,7 @@ aside img{
 }
 
 aside {
-    width: 30%;
+    width: 40%;
     padding-left: 15px;
     margin-left: 15px;
     float: right;
@@ -142,16 +148,13 @@ aside {
 
 column-1 {
     float: left;
-    width: 30%;
+    width: 20%;
     /* background-color: #E8DACD ; */
     padding: 10px;
 
 }
 column-1 .home {
-    float: left;
-    width: 30%;
     font-size: x-large;
-
 }
 column-1 img {
     height: 50px;
@@ -159,7 +162,7 @@ column-1 img {
 }
 column-2 {
     float: left;
-    width: 30%;
+    width: 50%;
     /* background-color: #E8DACD; */
     padding: 10px;
 }
@@ -167,7 +170,7 @@ column-2 {
   /* Middle column */
 column-3 {
     float: left;
-    width: 30%;
+    width: 20%;
     /* background-color: #E8DACD; */
     padding: 10px;
 }
@@ -175,6 +178,26 @@ column-3 img {
     width: 50px;
     height: 50px;
 }
+.column {
+    float: left;
+  }
+  
+  /* Left and right column */
+.column.side {
+    width: 30%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 30%;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
 
 .RecentProjects img {
     width: 300px;
