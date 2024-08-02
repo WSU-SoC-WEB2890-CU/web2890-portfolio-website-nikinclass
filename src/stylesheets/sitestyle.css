@@ -6,6 +6,7 @@ body {
     padding-left: 10%;
     padding-right: 10%;
 }
+
 header {
     font-style: bold;
     text-align: right;
@@ -48,7 +49,7 @@ nav ul li {
     padding: 0;
     border-right: 1px solid #bbb;
     border-left: 1px solid #bbb;
-    background-color: #FFFF00;
+    /* background-color: #FFFF00; */
     color: #62C8DF;
     font-style: inherit;
     font-weight: bold;
@@ -84,26 +85,33 @@ nav ul li {
 p {
     font-size: 18;
 }
+.biopic img {
+    float: left;
+    height: 300px;
+    width:auto;
+}
 
 aside img{
-    float: left;
-    width: 300px;
-    height: 300px;
+    float: right;
+    width: 400px;
+    height: 400px;
 }
 
-.aboutme-testimonial p {
-    float: left;
+/* .aboutme-testimonial p {
+    float: right;
     word-wrap: break-word;
-}
+} */
+
 
 aside {
-    width: 40%;
+    width: 60%;
     padding-left: 15px;
     margin-left: 15px;
     float: right;
     font-style: italic;
     background-color: lightgray;
 }
+
 .logotestimonial h3 {
     /* float: left; */
     word-wrap: break-word;
@@ -111,6 +119,9 @@ aside {
 article img {
     height:min-content;
     float: right;
+    padding-block-end: 20px;
+    padding-right: 25px;
+    padding-left: 5px;
 }
 column-1 {
     float: left;
@@ -178,10 +189,11 @@ column-3 img {
 }
 
 footer {
-    position:sticky;
+    position:fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    height:min-content;
     background-color: #FFFFCC;
     color:black;
     text-align: center;
@@ -193,8 +205,8 @@ footer h1 {
 }
 footer {
     img {
-        height: 50px;
-        width: 50px;
+        height: 30px;
+        width: 30px;
     }
 }
 
