@@ -1,7 +1,11 @@
 
 /*Gradient color and font*/
+/* html {
+    background-color: lightgoldenrodyellow;
+} */
+
 body {
-    background: white;   
+    background: lightyellow;   
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 10%;
     padding-right: 10%;
@@ -30,17 +34,22 @@ nav {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
 }
-  
-  /* Links - change color on hover */
-nav a:hover {
-    background-color: #D03309;
-    color: #62C8DF;
-}
 nav a {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    color: #D03309;
+    font-size: 1em;
+    letter-spacing: 0em;
+    text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
 }
+
+  /* Links - change color on hover */
+nav a:hover {
+    color: #62C8DF;
+    font-size: 3em;
+    letter-spacing: .1 em;
+    text-shadow: rgba(0,0,0.5)15px -3px 8px;
+}
+
   
 nav ul li {
     display: inline;
@@ -55,61 +64,72 @@ nav ul li {
     font-weight: bold;
 }
 
-.home {
+/* .home {
     float: left;
     border: #E8DACD;
     /* background-color:; */
-    word-break: normal;
+    /* word-break: normal;
     width: 600px;
     height: 200px;
     padding: 10px;
     border: 5px solid gray;
     margin: 0;
-}
-
+} */
+/* 
 .home h2 {
     font-size: 35;
     font-weight: bold;
 
-}
+} */
 
-.home h3 {
+/* .home h3 {
     font-size: 18;
-    font-weight: lighter;
-}
-.home a img{
+    font-weight: lighter; */
+
+/* .home a img{
     height: 30px;
     width: 30px;
-}
+} */
 
 p {
     font-size: 18;
 }
 .biopic img {
     float: left;
-    height: 300px;
+    height: 250px;
     width:auto;
+    padding: 20px;
 }
+/* .aboutme-testimonial {
+    padding-left: 10%;
+    padding-right: 10%;
+} */
 
+/* aside styling */
 aside img{
     float: right;
     width: 400px;
     height: 400px;
 }
 
-/* .aboutme-testimonial p {
-    float: right;
-    word-wrap: break-word;
-} */
-
-
 aside {
     width: 60%;
     padding-left: 15px;
     margin-left: 15px;
+    padding-bottom: 50px;
     float: right;
     font-style: italic;
+    font-size: 1.5em;
     background-color: lightgray;
+}
+
+aside blockquote {
+    color: rgb(232, 165, 116);
+    quotes: "\201C" "\201D";
+}
+aside img blockquote{
+    height: 15px;
+    width: 15px;
 }
 
 .logotestimonial h3 {
