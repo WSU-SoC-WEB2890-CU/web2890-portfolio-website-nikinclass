@@ -1,0 +1,124 @@
+body {
+    background: lightyellow;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    font-style: bold;
+    text-align: right;
+}
+
+body header img {
+    float: left;
+    width: 15%;
+    height: 15%;
+}
+body header h1 {
+    font-size: 35;
+    font-weight: lighter;
+}
+
+  /* Navbar links */
+nav {
+    overflow: hidden;
+    float: inline-end;
+    width:fit-content;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+nav a {
+    list-style-type: none;
+    color: #D03309;
+    font-size: 1em;
+    letter-spacing: 0em;
+    text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
+}
+
+  /* Links - change color on hover */
+nav a:hover {
+    color: #62C8DF;
+    font-size: 3em;
+    letter-spacing: .1 em;
+    text-shadow: rgba(0,0,0.5)15px -3px 8px;
+}
+
+  
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    color: #62C8DF;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18;
+}
+article .blog img {
+    height:min-content;
+    float: center;
+}
+.column-left {
+    float: left;
+    width: 20%;
+}
+.column-left img {
+    width: auto;
+}
+  
+/* Middle column */
+.column-middle {
+    /* float: center; */
+    width: 200px;
+}
+.column-middle img {
+    width: auto;
+}
+/* right column */
+.column-right{
+    float: right;
+    width: 200px;
+}
+.column-right img {
+    width: auto;
+}
+  
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column.side, .column.middle {
+    width: 100%;
+    }
+}
+
+
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:min-content;
+    background-color: #FFFFCC;
+    color:black;
+    text-align: center;
+
+}
+footer h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+footer {
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
+

@@ -1,0 +1,136 @@
+
+body {
+    background: lightyellow;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    font-style: bold;
+    text-align: right;
+}
+
+body header img {
+    float: left;
+    width: 15%;
+    height: 15%;
+}
+body header h1 {
+    font-size: 35;
+    font-weight: lighter;
+}
+
+  /* Navbar links */
+nav {
+    overflow: hidden;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+nav a {
+    list-style-type: none;
+    color: #D03309;
+    font-size: 1em;
+    letter-spacing: 0em;
+    text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
+}
+
+  /* Links - change color on hover */
+nav a:hover {
+    color: #62C8DF;
+    font-size: 3em;
+    letter-spacing: .1 em;
+    text-shadow: rgba(0,0,0.5)15px -3px 8px;
+}
+
+  
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    /* background-color: #FFFF00; */
+    color: #62C8DF;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+
+/* Accordian */
+.accordion {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.accordion-item {
+    border-bottom: 1px solid #ccc;
+}
+.accordion-header {
+    width: 100%;
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    transition: background-color 0.3s ease;
+}
+.accordion-header:hover {
+    background-color: #e7e7e7;
+}
+.accordion-content {
+    padding: 15px;
+    display: none;
+    background-color: #fff;
+}
+.accordion-content p {
+    margin: 0;
+}
+
+/* picture */
+.biopic img {
+    float: left;
+    height: 250px;
+    width:auto;
+    padding: 20px;
+}
+
+
+/* footer styling */
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:min-content;
+    background-color: #FFFFCC;
+    color:black;
+    text-align: center;
+
+}
+footer h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+footer {
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    column.side, .column.middle {
+    width: 100%;
+    }
+}

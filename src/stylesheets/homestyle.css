@@ -4,14 +4,18 @@
     background-repeat: repeat;
 } */
 
+
 body { 
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-left: 10%;
     padding-right: 10%;
-    background-image: url(../images/ngabor_biopic2.png);
-    background-repeat: repeat;
-    background-attachment: scroll;
+    background-image: url(../images/measmountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    /* background-attachment: scroll; */
 }
 
 
@@ -43,8 +47,8 @@ nav {
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
-    background-color: bisque;
 }
+
 nav a {
     list-style-type: none;
     color: #D03309;
@@ -84,14 +88,6 @@ p {
     font-size: 18;
 }
   
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-.column.side, .column.middle {
-    width: 100%;
-    }
-}
-
-
 footer {
     position:fixed;
     left: 0;
@@ -116,7 +112,7 @@ footer {
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    column.side, .column.middle {
-    width: 100%;
+    .column.side, .column.middle {
+        width: 100%;
+        }
     }
-}
