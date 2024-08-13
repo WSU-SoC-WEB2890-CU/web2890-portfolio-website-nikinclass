@@ -74,7 +74,7 @@ nav ul li {
 }
 .accordion-header {
     width: 100%;
-    background-color: #f7f7f7;
+    background-color: #00BAC1;
     border: none;
     outline: none;
     cursor: pointer;
@@ -84,12 +84,12 @@ nav ul li {
     transition: background-color 0.3s ease;
 }
 .accordion-header:hover {
-    background-color: #e7e7e7;
+    background-color: #FFFF00;
 }
 .accordion-content {
     padding: 15px;
     display: none;
-    background-color: #fff;
+    background-color: #FFFFCC;
 }
 .accordion-content p {
     margin: 0;
