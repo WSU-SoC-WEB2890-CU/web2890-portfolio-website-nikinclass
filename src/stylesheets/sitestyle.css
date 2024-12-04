@@ -1,0 +1,259 @@
+
+/*Gradient color and font*/
+/* html {
+    background-color: lightgoldenrodyellow;
+} */
+
+body {
+    background: lightyellow;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+header {
+    font-style: bold;
+    text-align: right;
+}
+
+body header img {
+    float: left;
+    width: 15%;
+    height: 15%;
+}
+body header h1 {
+    font-size: 35;
+    font-weight: lighter;
+}
+  /* Navbar links */
+nav {
+    overflow: hidden;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+nav a {
+    list-style-type: none;
+    color: #D03309;
+    font-size: 1em;
+    letter-spacing: 0em;
+    text-shadow: rgba(0, 0, 0, 1) 1px -1px 1px;
+}
+
+  /* Links - change color on hover */
+nav a:hover {
+    color: #62C8DF;
+    font-size: 3em;
+    letter-spacing: .1 em;
+    text-shadow: rgba(0,0,0.5)15px -3px 8px;
+}
+
+  
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    /* background-color: #FFFF00; */
+    color: #62C8DF;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+/* .home {
+    float: left;
+    border: #E8DACD;
+    /* background-color:; */
+    /* word-break: normal;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+} */
+/* 
+.home h2 {
+    font-size: 35;
+    font-weight: bold;
+
+} */
+
+/* .home h3 {
+    font-size: 18;
+    font-weight: lighter; */
+
+/* .home a img{
+    height: 30px;
+    width: 30px;
+} */
+
+p {
+    font-size: 18;
+}
+.biopic img {
+    float: left;
+    height: 250px;
+    width:auto;
+    padding: 20px;
+}
+/* .aboutme-testimonial {
+    padding-left: 10%;
+    padding-right: 10%;
+} */
+
+/* aside styling */
+aside img{
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+
+aside {
+    width: 60%;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-bottom: 50px;
+    float: right;
+    font-style: italic;
+    font-size: 1.5em;
+    background-color: lightgray;
+}
+
+aside blockquote {
+    color: rgb(232, 165, 116);
+    quotes: "\201C" "\201D";
+}
+aside img blockquote{
+    height: 15px;
+    width: 15px;
+}
+
+.logotestimonial h3 {
+    /* float: left; */
+    word-wrap: break-word;
+}
+article img {
+    height:min-content;
+    float: right;
+    padding-block-end: 20px;
+    padding-right: 25px;
+    padding-left: 5px;
+}
+column-1 {
+    float: left;
+    width: 20%;
+    /* background-color: #E8DACD ; */
+    padding: 10px;
+
+}
+column-1 .home {
+    font-size: x-large;
+}
+column-1 img {
+    height: 50px;
+    width: 50px;
+}
+column-2 {
+    float: left;
+    width: 50%;
+    /* background-color: #E8DACD; */
+    padding: 10px;
+}
+  
+  /* Middle column */
+column-3 {
+    float: left;
+    width: 20%;
+    /* background-color: #E8DACD; */
+    padding: 10px;
+}
+column-3 img {
+    width: 50px;
+    height: 50px;
+}
+
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+.RecentProjects img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.gaborwebsite img {
+    float:left;
+    padding: 20px;
+
+}
+
+footer {
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:min-content;
+    background-color: #FFFFCC;
+    color:black;
+    text-align: center;
+
+}
+footer h1 {
+    font-size: medium;
+    font-weight: bold;
+}
+footer {
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color */
+  input[type=submit] {
+    background-color: #62C8DF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #FFFF00;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    column.side, .column.middle {
+    width: 100%;
+    }
+}

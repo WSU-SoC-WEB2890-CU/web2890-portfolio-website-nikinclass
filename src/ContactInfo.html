@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Portfolio website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="ContactInfo">
+
+  <link rel="stylesheet" href="./stylesheets/sitestyle.css">
+</head>
+
+<body>
+  <!-- Your HTML goes here -->
+  <header>
+    <img src="images/ContactInfo.png">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">AboutMe</a></li>
+        <li><a href="RecentProjects.html">RecentProjects</a></li>
+        <li><a href="blogapetit.html">CaseStudy</a></li>
+        <li><a href="logos.html">Logos</a></li>
+        <li><a href="ContactInfo.html">Contact</a></li>
+      </ul>
+  </nav>
+</header>
+
+    
+<div class="container">
+  <form action="mailto:nikki@prototype-life.com">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+  <br>
+  <br>
+</div>
+<footer>
+  <h3>Take a look at some of my recent projects on<a href="https://github.com/nikinclass"><img src="images/githublogo.png"></a>and follow me on
+  <a href="https://www.linkedin.com/in/nicolegabor/."><img src="images/linkedin.jpeg"> 
+  <a href="https://nikkigabor.com"><img src="images/logo_small.png" alt="small_logo"></a></h3>
+</footer>
+
+  <script type="module" src="./javascripts/main.js"></script>
+</body>
+</html>
